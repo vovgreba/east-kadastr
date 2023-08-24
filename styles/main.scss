@@ -789,6 +789,9 @@ header {
 
 footer {
   padding-bottom: 27px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
   header {
     margin: 0;
     padding: 0;
@@ -834,7 +837,7 @@ footer {
   }
 
   .footer {
-
+    padding: 0 15px;
     margin-bottom: 27px;
   }
   header {

@@ -748,6 +748,9 @@ header nav a:hover {
 
 footer {
   padding-bottom: 27px;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
 }
 footer header {
   margin: 0;
@@ -785,6 +788,7 @@ footer .copyright .footer-logo span {
     padding: 0 15px;
   }
   .footer {
+    padding: 0 15px;
     margin-bottom: 27px;
   }
   header {

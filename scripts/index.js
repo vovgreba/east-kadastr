@@ -92,17 +92,13 @@ arrayBurger.forEach(el => {
     mobileMenu.classList.remove('scale-down-bl')
     mobileMenu.classList.add('mobile-menu--show')
     mobileMenu.classList.add('scale-up-left')
-  
   })
 })
 arrayClose.forEach(el=> {
   el.addEventListener('click', ev => {
     mobileMenu.classList.remove('scale-up-left')
     mobileMenu.classList.toggle('scale-down-bl');
-    setTimeout(()=> {
-      mobileMenu.classList.remove('mobile-menu--show')
-  
-    },500)
+    mobileMenu.classList.remove('mobile-menu--show')
   })
 })
 
