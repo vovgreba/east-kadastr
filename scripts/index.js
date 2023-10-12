@@ -55,8 +55,10 @@ ymaps.ready(function () {
     },
     {
       iconLayout: ymaps.templateLayoutFactory.createClass(
-        '<div style="display: flex; align-items: center;">' +
-          '<img src="data:image/svg+xml;charset=utf-8,' + encodeURIComponent(mainSvgIcon) + '" width="60" height="68" />' +
+        '<div  style="display: flex; align-items: center;">' +
+        `<a class="custom-icon-maps" href="https://yandex.com/maps/org/mbu_sluzhba_zemelno_imushchestvennogo_kompleksa_orekhovo_zuyevskogo_munitsipalnogo_rayona/1760392426/reviews/?ll=38.876481%2C55.472217&mode=search&sll=33.813163%2C53.560477&sspn=25.571909%2C8.620809&tab=reviews&text=c%D0%B7%D0%B8%D0%BA%20%D0%BA%D0%B0%D0%B4%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B&utm_campaign=morda&utm_medium=com&utm_source=yandex&z=8.6" target="_blank"> 
+        <img src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(mainSvgIcon)}" width="60" height="68" />
+        </a>` +
          `<div  class="icon-info">
          <div class="icon-info_rating">
          <span class="icon-info_name">Сзик</span>

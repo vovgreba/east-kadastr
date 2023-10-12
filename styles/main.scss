@@ -761,6 +761,14 @@ header {
 }
 .ymaps-2-1-79-inner-panes {
   border-radius: 24px;
+  .ymaps-2-1-79-user-selection-none{
+    position: relative;
+    // cursor: auto !important;
+    z-index: 1000 !important;
+  }
+}
+.custom-icon-maps {
+  cursor: pointer;
 }
 .icon-info {
   background: rgba(255, 255, 255, 0.9);
